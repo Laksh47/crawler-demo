@@ -1,0 +1,28 @@
+{
+	"taskQueueName": "task_queue",
+	"failureQueueName": "failed_ids",
+	
+	"apkTaskQueueName": "apk_task_queue",
+	"apkFailureQueueName": "apk_failed_ids",
+
+	"reviewQueueName": "review_queue",
+	"reviewFailureQueueName": "review_failed_ids",
+
+	"reviews10KQueueName": "review_10K_queue",
+	"reviewsFailure10KQueueName": "review_failure_10K_ids",
+
+	"similarAppsQueueName": "find_similar_apps",
+
+	"rabbitMQurl": "amqp://localhost",
+
+	"mongoDBurl": "mongodb://localhost:27017/gapi",
+	"mongoCollectionName": "app_details",
+	"reviewCollectionName": "app_reviews",
+
+	"filePathToAppIds": "test_files/list.txt",
+	"filePathToStoreAPKs": "apks/",
+
+	"usernames" : ["scrawler16.1@gmail.com", "scrawler16.9@gmail.com", "scrawler16.8@gmail.com", "scrawler16.7@gmail.com", "scrawler16.6@gmail.com", "scrawler16.2@gmail.com", "scrawler16.3@gmail.com", "scrawler16.4@gmail.com"],
+	"googlePassword": "",
+	"androidID": "3fddcb51d78c34da"
+}

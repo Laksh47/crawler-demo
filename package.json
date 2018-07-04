@@ -4,9 +4,9 @@
   "dependencies": {
     "amqplib": "0.5.2",
     "config": "^1.29.2",
-    "google-play-cli": "^4.5.0",
-    "google-play-scraper": "^4.0.0",
-    "gpapi": "^4.0.0",
+    "google-play-cli": "^4.5.1-0",
+    "google-play-scraper": "^6.1.0",
+    "gpapi": "^4.4.1-0",
     "grepit": "^1.0.0",
     "mongodb": "^2.2.33",
     "shelljs": "0.8.0"

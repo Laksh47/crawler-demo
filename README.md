@@ -24,14 +24,14 @@
 
 ############ SERVER ############
 
-# MongoDB installation: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+### MongoDB installation: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
 
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 2930ADAE8CAF5059EE73BB4B58712A2291FA4AD5
 echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.6 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.6.list
 sudo apt-get update
 sudo apt-get install -y mongodb-org
 
-# MongoDB configuration
+### MongoDB configuration
 
 1. Edit file /etc/mongod.conf
 	- set variable dbpath to point to external mounted storage
@@ -53,7 +53,7 @@ sudo apt-get install -y mongodb-org
 4. Restart mongo service
 	sudo service mongod restart
 
-# RabbitMQ installation
+### RabbitMQ installation
 sudo apt-get update
 sudo apt-get install -y rabbitmq-server
 sudo rabbitmqctl stop
@@ -78,18 +78,18 @@ MavenCrawler
 
 ############ CLIENT ############
 
-# Install npm and nodeJS
+### Install npm and nodeJS
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
-# Clone and install our application
+### Clone and install our application
 
 cd /
 sudo git clone https://github.com/uw-swag/swag-crawler.git
 cd swag-crawler
 sudo npm install
 
-# Configure our application and start
+### Configure our application and start
 
 1. Edit the following variables in /swag-crawler/config/default.json file:
 	- set config "rabbitMQurl" value (change SERVER_ADDRESS) to "amqp://application:test@SERVER_ADDRESS:5672"

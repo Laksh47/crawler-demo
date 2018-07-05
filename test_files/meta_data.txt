@@ -1,0 +1,382 @@
+{ 
+    "_id" : ObjectId("5a848ad8c6db22159621840f"), 
+    "docid" : "a.b.see", 
+    "backendDocid" : "a.b.see", 
+    "docType" : NumberInt(1), 
+    "backendId" : NumberInt(3), 
+    "title" : "A.B.See", 
+    "creator" : "MTA College", 
+    "descriptionHtml" : "The app provides eye examination and glasses price comparison", 
+    "offer" : [
+        {
+            "micros" : {
+                "low" : NumberInt(0), 
+                "high" : NumberInt(0), 
+                "unsigned" : false
+            }, 
+            "currencyCode" : "USD", 
+            "formattedAmount" : "Free", 
+            "convertedPrice" : [
+
+            ], 
+            "checkoutFlowRequired" : false, 
+            "fullPriceMicros" : null, 
+            "formattedFullAmount" : null, 
+            "offerType" : NumberInt(1), 
+            "rentalTerms" : null, 
+            "onSaleDate" : null, 
+            "promotionLabel" : [
+
+            ], 
+            "subscriptionTerms" : null, 
+            "formattedName" : null, 
+            "formattedDescription" : null, 
+            "preorder" : null, 
+            "onSaleDateDisplayTimeZoneOffsetMsec" : null, 
+            "licensedOfferType" : null, 
+            "subscriptionContentTerms" : null, 
+            "offerId" : null, 
+            "preorderFulfillmentDisplayDate" : null, 
+            "licenseTerms" : null, 
+            "temporarilyFree" : null, 
+            "voucherTerms" : null, 
+            "offerPayment" : [
+
+            ], 
+            "repeatLastPayment" : null, 
+            "buyButtonLabel" : "Buy", 
+            "instantPurchaseEnabled" : null
+        }
+    ], 
+    "availability" : {
+        "restriction" : NumberInt(1), 
+        "offerType" : null, 
+        "rule" : null, 
+        "perdeviceavailabilityrestriction" : [
+
+        ], 
+        "availableIfOwned" : true, 
+        "install" : [
+
+        ], 
+        "filterInfo" : null, 
+        "ownershipInfo" : null, 
+        "availabilityProblem" : [
+
+        ], 
+        "hidden" : null
+    }, 
+    "image" : [
+        {
+            "imageType" : NumberInt(1), 
+            "dimension" : {
+                "width" : NumberInt(500), 
+                "height" : NumberInt(889)
+            }, 
+            "imageUrl" : "https://lh3.ggpht.com/GPXTNfPupRDhRArRts-big-136vV5hU_Woo2wv1FXQHhLVvji478IAEQ8CM9vpwNGR78", 
+            "altTextLocalized" : null, 
+            "secureUrl" : null, 
+            "positionInSequence" : NumberInt(0), 
+            "supportsFifeUrlOptions" : true, 
+            "citation" : null, 
+            "durationSeconds" : null, 
+            "fillColorRgb" : null, 
+            "autogen" : null, 
+            "attribution" : null, 
+            "backgroundColorRgb" : null, 
+            "palette" : null, 
+            "deviceClass" : NumberInt(1), 
+            "supportsFifeMonogramOption" : null
+        }, 
+        {
+            "imageType" : NumberInt(1), 
+            "dimension" : {
+                "width" : NumberInt(500), 
+                "height" : NumberInt(889)
+            }, 
+            "imageUrl" : "https://lh5.ggpht.com/7Ry2UIKA3agt4yAwcDPa_ID-4XNty0RpLp1hRAtYnE_C48aeyL0neFH3TYmeW7L4Phk", 
+            "altTextLocalized" : null, 
+            "secureUrl" : null, 
+            "positionInSequence" : NumberInt(1), 
+            "supportsFifeUrlOptions" : true, 
+            "citation" : null, 
+            "durationSeconds" : null, 
+            "fillColorRgb" : null, 
+            "autogen" : null, 
+            "attribution" : null, 
+            "backgroundColorRgb" : null, 
+            "palette" : null, 
+            "deviceClass" : NumberInt(1), 
+            "supportsFifeMonogramOption" : null
+        }, 
+        {
+            "imageType" : NumberInt(1), 
+            "dimension" : {
+                "width" : NumberInt(500), 
+                "height" : NumberInt(889)
+            }, 
+            "imageUrl" : "https://lh5.ggpht.com/joBN91cQC_E2O_FpyqdM9jWPAnPHcutT_H6KYFe6X6StYRZZZXcTAsCgv3b6Yj8Zfrw", 
+            "altTextLocalized" : null, 
+            "secureUrl" : null, 
+            "positionInSequence" : NumberInt(2), 
+            "supportsFifeUrlOptions" : true, 
+            "citation" : null, 
+            "durationSeconds" : null, 
+            "fillColorRgb" : null, 
+            "autogen" : null, 
+            "attribution" : null, 
+            "backgroundColorRgb" : null, 
+            "palette" : null, 
+            "deviceClass" : NumberInt(3), 
+            "supportsFifeMonogramOption" : null
+        }
+    ], 
+    "child" : [
+
+    ], 
+    "containerMetadata" : null, 
+    "details" : {
+        "appDetails" : {
+            "developerName" : "MTA College", 
+            "majorVersionNumber" : null, 
+            "versionCode" : NumberInt(6), 
+            "versionString" : "6", 
+            "title" : null, 
+            "appCategory" : [
+
+            ], 
+            "contentRating" : null, 
+            "installationSize" : {
+                "low" : NumberInt(2793262), 
+                "high" : NumberInt(0), 
+                "unsigned" : false
+            }, 
+            "permission" : [
+                "android.permission.CAMERA", 
+                "android.permission.INTERNET", 
+                "android.permission.READ_EXTERNAL_STORAGE", 
+                "android.permission.WRITE_EXTERNAL_STORAGE"
+            ], 
+            "developerEmail" : "kirsh@mta.ac.il", 
+            "developerWebsite" : "http://www.mta.ac.il", 
+            "numDownloads" : "1,000+ downloads", 
+            "packageName" : "a.b.see", 
+            "recentChangesHtml" : null, 
+            "uploadDate" : "Sep 9, 2014", 
+            "file" : [
+                {
+                    "fileType" : NumberInt(0), 
+                    "versionCode" : NumberInt(6), 
+                    "size" : {
+                        "low" : NumberInt(2793262), 
+                        "high" : NumberInt(0), 
+                        "unsigned" : false
+                    }, 
+                    "splitId" : null, 
+                    "compressedSize" : {
+                        "low" : NumberInt(2707243), 
+                        "high" : NumberInt(0), 
+                        "unsigned" : false
+                    }, 
+                    "patchDetails" : [
+
+                    ]
+                }
+            ], 
+            "appType" : "APPLICATION", 
+            "certificateHash" : [
+
+            ], 
+            "variesByAccount" : false, 
+            "certificateSet" : [
+                {
+                    "certificateHash" : [
+                        "LqzFkPFcvLjvSNN8bayj_PEetEQ"
+                    ]
+                }
+            ], 
+            "autoAcquireFreeAppIfHigherVersionAvailableTag" : [
+
+            ], 
+            "declaresIab" : null, 
+            "splitId" : [
+
+            ], 
+            "gamepadRequired" : null, 
+            "externallyHosted" : null, 
+            "everExternallyHosted" : false, 
+            "installNotes" : null, 
+            "installLocation" : null, 
+            "targetSdkVersion" : null, 
+            "hasPreregistrationPromoCode" : null, 
+            "installDetails" : {
+                "installLocation" : NumberInt(0), 
+                "size" : {
+                    "low" : NumberInt(2793262), 
+                    "high" : NumberInt(0), 
+                    "unsigned" : false
+                }, 
+                "dependency" : null, 
+                "targetSdkVersion" : null
+            }
+        }, 
+        "albumDetails" : null, 
+        "artistDetails" : null, 
+        "songDetails" : null, 
+        "bookDetails" : null, 
+        "videoDetails" : null, 
+        "subscriptionDetails" : null, 
+        "magazineDetails" : null, 
+        "tvShowDetails" : null, 
+        "tvSeasonDetails" : null, 
+        "tvEpisodeDetails" : null
+    }, 
+    "aggregateRating" : {
+        "type" : NumberInt(2), 
+        "starRating" : 4.079999923706055, 
+        "ratingsCount" : {
+            "low" : NumberInt(50), 
+            "high" : NumberInt(0), 
+            "unsigned" : true
+        }, 
+        "oneStarRatings" : {
+            "low" : NumberInt(7), 
+            "high" : NumberInt(0), 
+            "unsigned" : true
+        }, 
+        "twoStarRatings" : {
+            "low" : NumberInt(2), 
+            "high" : NumberInt(0), 
+            "unsigned" : true
+        }, 
+        "threeStarRatings" : {
+            "low" : NumberInt(4), 
+            "high" : NumberInt(0), 
+            "unsigned" : true
+        }, 
+        "fourStarRatings" : {
+            "low" : NumberInt(4), 
+            "high" : NumberInt(0), 
+            "unsigned" : true
+        }, 
+        "fiveStarRatings" : {
+            "low" : NumberInt(33), 
+            "high" : NumberInt(0), 
+            "unsigned" : true
+        }, 
+        "thumbsUpCount" : null, 
+        "thumbsDownCount" : null, 
+        "commentCount" : {
+            "low" : NumberInt(14), 
+            "high" : NumberInt(0), 
+            "unsigned" : true
+        }, 
+        "bayesianMeanRating" : null
+    }, 
+    "annotations" : {
+        "sectionRelated" : null, 
+        "sectionMoreBy" : null, 
+        "plusOneData" : null, 
+        "warning" : [
+
+        ], 
+        "sectionBodyOfWork" : null, 
+        "sectionCoreContent" : null, 
+        "template" : null, 
+        "badgeForCreator" : [
+
+        ], 
+        "badgeForDoc" : [
+
+        ], 
+        "link" : null, 
+        "sectionCrossSell" : null, 
+        "sectionRelatedDocType" : null, 
+        "promotedDoc" : [
+
+        ], 
+        "offerNote" : null, 
+        "subscription" : [
+
+        ], 
+        "oBSOLETEReason" : null, 
+        "privacyPolicyUrl" : null, 
+        "suggestionReasons" : null, 
+        "optimalDeviceClassWarning" : null, 
+        "docBadgeContainer" : [
+
+        ], 
+        "sectionSuggestForRating" : null, 
+        "sectionRateAndReview" : null, 
+        "sectionPurchaseCrossSell" : {
+            "header" : "You might also like", 
+            "listUrl" : "cluster?adctx=Cg0KB2EuYi5zZWUQARgDEAMaEwjx3-L8jqbZAhVZXJIKHZsJChY&ecp=0gIoCg0KB2EuYi5zZWUQARgDEhUKEwjx3-L8jqbZAhVZXJIKHZsJChYYAQ%3D%3D&ds=1&n=21", 
+            "browseUrl" : "browseCluster?ecp=0gIPCg0KB2EuYi5zZWUQARgD&n=21", 
+            "descriptionHtml" : null
+        }, 
+        "overflowLink" : [
+
+        ], 
+        "creatorDoc" : null
+    }, 
+    "detailsUrl" : "details?doc=a.b.see", 
+    "shareUrl" : "https://play.google.com/store/apps/details?id=a.b.see", 
+    "reviewsUrl" : "rev?doc=a.b.see&n=20&o=0", 
+    "backendUrl" : null, 
+    "purchaseDetailsUrl" : null, 
+    "detailsReusable" : true, 
+    "subtitle" : null, 
+    "translatedDescriptionHtml" : null, 
+    "serverLogsCookie" : {
+        "buffer" : {
+            "type" : "Buffer", 
+            "data" : [
+                NumberInt(10), 
+                NumberInt(157), 
+                NumberInt(24), 
+                NumberInt(18), 
+                NumberInt(154), 
+                NumberInt(24), 
+                NumberInt(34), 
+                NumberInt(169)
+            ]
+        }, 
+        "offset" : NumberInt(2302), 
+        "markedOffset" : NumberInt(-1), 
+        "limit" : NumberInt(2344), 
+        "littleEndian" : true, 
+        "noAssert" : false
+    }, 
+    "productDetails" : {
+        "title" : null, 
+        "section" : [
+            {
+                "title" : "Offered by", 
+                "description" : [
+                    {
+                        "image" : null, 
+                        "description" : "MTA College"
+                    }
+                ]
+            }, 
+            {
+                "title" : "Developer e-mail", 
+                "description" : [
+                    {
+                        "image" : null, 
+                        "description" : "kirsh@mta.ac.il"
+                    }
+                ]
+            }
+        ]
+    }, 
+    "mature" : false, 
+    "promotionalDescription" : "The app provides eye examination and glasses price comparison", 
+    "availabileForPreregistration" : null, 
+    "tip" : [
+
+    ], 
+    "snippetsUrl" : null, 
+    "forceShareability" : null, 
+    "useWishlistAsPrimaryAction" : null
+}

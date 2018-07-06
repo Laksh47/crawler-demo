@@ -150,7 +150,7 @@ MongoClient.connect(mongoDBurl, function(err, db) {
 						  }
 
 						  var pushToQueue = reviewQueue;
-						  var limit = 7;
+						  var limit = 2;
 
 						  var newPages = Math.ceil( newCommentsCount / 40)
 						  if (newPages < limit) {

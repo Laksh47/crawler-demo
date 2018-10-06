@@ -1,23 +1,33 @@
 <html>
-<header>
-    <h1>How we mine Google Play Data</h1>
-</header>
+    <head>
+        <style>
+            body {
+                font-size: 20;
+                padding: 1% 10%;
+                line-height: 1.25;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>How we mine Google Play Data</h1>
+        </header>
 
-  <h4>Collection of Initial set of android application ids</h4>
-  <p>(Example app id: "com.facebook.katana")</p>
-  <p>We collected the initial set of app ids using simple crawling scripts and manually selection. We also used <a href="https://androzoo.uni.lu/lists">Androzoo</a> for collecting app ids for the crawler.</p>
-  <p><a href="https://androzoo.uni.lu/">Androzoo</a> has mined over 7 million android applications until now.</p>
+        <h4>Collection of Initial set of android application ids (Example app id: "com.facebook.katana")</h4>
+        <p>We collected the initial set of app ids using simple crawling scripts and manually selection. We also used <a href="https://androzoo.uni.lu/lists">Androzoo</a> for collecting app ids for the crawler.</p>
+        <p><a href="https://androzoo.uni.lu/">Androzoo</a> has mined over 7 million android applications until now.</p>
 
-  <h4>Crawler architecture</h4>
-  <p>The crawler basically uses a client server architecure along with work queues. There are individual scripts and queus responsible for mining metadata, apks and reviews of a particular android application. Once we push the appids to the work queue,</p>
-  <ol>
-    <li>Meta data script uses Google play API services and dumps the reponse to a mongoDB instance. It enqueues app id and its version code (obtained from metadata) to another queue for downloading apks. It also enqueues the app id, (along with number of review pages that need to be crawled) to another queue for crawling reviews.</li>
-    <li>Once app id and its corresponding version code is available in apk queue, apk script starts downloading the apk. Note: version code determines the version of the apk.</li>
-    <li>Review script that is responsible for reviews queue starts crawling app review once the app ids are available in this queue.</li>
-  </ol>
+        <h4>Crawler architecture</h4>
+        <p>The crawler basically uses a client server architecure along with work queues. There are individual scripts and queus responsible for mining metadata, apks and reviews of a particular android application. Once we push the appids to the work queue,</p>
+        <ol>
+            <li>Meta data script uses Google play API services and dumps the reponse to a mongoDB instance. It enqueues app id and its version code (obtained from metadata) to another queue for downloading apks. It also enqueues the app id, (along with number of review pages that need to be crawled) to another queue for crawling reviews.</li>
+            <li>Once app id and its corresponding version code is available in apk queue, apk script starts downloading the apk. Note: version code determines the version of the apk.</li>
+            <li>Review script that is responsible for reviews queue starts crawling app review once the app ids are available in this queue.</li>
+        </ol>
 
-  <p>
-    <strong>Note: </strong>Steps 1 and 2 (metadata and apk scripts) uses the npm package <a href="https://github.com/dweinstein/node-google-play-cli">google-play-cli</a>. Step 3 (reviews script) uses the npm package <a href="https://github.com/facundoolano/google-play-scraper">google-play-scraper</a>. More new apk ids are crawled using <a href="https://github.com/facundoolano/google-play-scraper">google-play-scraper</a> package and enqueued for metadata.</p>
-    <p>Scripts to crawl this data and others package installation instructions are available in this <a href="https://github.com/Laksh47/crawler-demo">repo</a>.
-  </p>
+        <p>
+            <strong>Note: </strong>Steps 1 and 2 (metadata and apk scripts) uses the npm package <a href="https://github.com/dweinstein/node-google-play-cli">google-play-cli</a>. Step 3 (reviews script) uses the npm package <a href="https://github.com/facundoolano/google-play-scraper">google-play-scraper</a>. More new apk ids are crawled using <a href="https://github.com/facundoolano/google-play-scraper">google-play-scraper</a> package and enqueued for metadata.
+        </p>
+        Scripts to crawl this data and others package installation instructions are available in this <a href="https://github.com/Laksh47/crawler-demo">repo</a>.
+    </body>
 </html>

@@ -85,13 +85,13 @@ sudo apt-get install -y nodejs
 ### Clone and install our application
 
 cd /
-sudo git clone https://github.com/uw-swag/swag-crawler.git
-cd swag-crawler
+sudo git clone https://github.com/Laksh47/crawler-demo.git
+cd crawler-demo
 sudo npm install
 
 ### Configure our application and start
 
-1. Edit the following variables in /swag-crawler/config/default.json file:
+1. Edit the following variables in /crawler-demo/config/default.json file:
 	- set config "rabbitMQurl" value (change SERVER_ADDRESS) to "amqp://application:test@SERVER_ADDRESS:5672"
 	- set config "mongoDBurl" value (change SERVER_ADDRESS) to "mongodb://application:test@SERVER_ADDRESS:27017/DBname?authMechanism=DEFAULT&authSource=admin"
 	- set config "filePathToStoreAPKs" to point to external mounted storage
@@ -99,7 +99,7 @@ sudo npm install
 
 run the scripts with sudo node!
 
-# swag-crawler
+# crawler-demo
 - Make sure mongoDB is up and running, corresponding url is specified in config/default.json
 - make sure rabbitMQ is up and running, corresponding url is specified in config/default.json
 - make sure the queue names are proper in the config/default.json

@@ -84,10 +84,10 @@ sudo apt-get install -y nodejs
 
 ### Clone and install our application
 
-cd /
-sudo git clone https://github.com/Laksh47/crawler-demo.git
-cd crawler-demo
-sudo npm install
+- cd /home/some-directory
+- sudo git clone https://github.com/Laksh47/crawler-demo.git
+- cd crawler-demo
+- sudo npm install
 
 ### Configure our application and start
 
